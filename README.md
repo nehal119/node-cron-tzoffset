@@ -20,13 +20,13 @@ The node-cron module is tiny task scheduler in pure JavaScript for node.js based
 Install node-cron using npm:
 
 ```console
-$ npm install --save node-cron
+$ npm install --save node-cron-tzoffset
 ```
 
-Import node-cron and schedule a task:
+Import node-cron-tzoffset and schedule a task:
 
 ```javascript
-var cron = require('node-cron');
+var cron = require('node-cron-tzoffset');
 
 cron.schedule('* * * * *', () => {
   console.log('running a task every minute');
